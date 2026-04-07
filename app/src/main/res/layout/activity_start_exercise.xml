@@ -6,49 +6,46 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NutritionAdvice"
+    tools:context=".StartExercise"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nutrition Advice"
+        android:text="Start Exercise"
+
         android:textSize="30sp"
         android:layout_marginTop="30dp"
         android:textAlignment="center"
         android:textColor="#83516F"/>
-
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/image3" />
+        android:src="@drawable/start"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Eat a balanced"
-        android:textColor="#16C5D9"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="  , varied diet by filling half your plate with colorful fruits and vegetables, one-quarter with lean protein (fish, beans, nuts), and one-quarter with whole grains"
+        android:text="Starting an exercise routine involves
+beginning slowly with 5–10 minute sessions of low-intensity activities like walking or cycling to build consistency and prevent injury"
         android:textColor="#000000"
         android:textSize="20sp"
-        android:fontFamily="sans-serif-condensed-medium"/>
+        android:fontFamily="sans-serif-condensed-medium"
+
+
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:backgroundTint="#EB5E4E7C"
-        android:text="Explore on nutrition"
+        android:text="Hoe to start exercise"
         android:textSize="20sp"
         android:fontFamily="sans-serif-condensed-light"
         />
 
 
-
 </LinearLayout>
-

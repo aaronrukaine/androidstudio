@@ -6,44 +6,44 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NutritionAdvice"
+    tools:context=".HydrationAlert"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nutrition Advice"
+        android:text="Hydration Alert"
         android:textSize="30sp"
         android:layout_marginTop="30dp"
         android:textAlignment="center"
         android:textColor="#83516F"/>
 
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/image3"
         android:layout_margin="20dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/image3" />
-
+        android:scaleType="centerCrop"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Eat a balanced"
+        android:text="Proper Hydration"
         android:textColor="#16C5D9"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="  , varied diet by filling half your plate with colorful fruits and vegetables, one-quarter with lean protein (fish, beans, nuts), and one-quarter with whole grains"
+        android:text="  is essential for energy, kidney health, and skin, with recommendations to
+drink fluids regularly throughout the day, such as water, milk, or juice"
         android:textColor="#000000"
         android:textSize="20sp"
         android:fontFamily="sans-serif-condensed-medium"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:backgroundTint="#EB5E4E7C"
-        android:text="Explore on nutrition"
+        android:text="Check essence of  Hydration "
         android:textSize="20sp"
         android:fontFamily="sans-serif-condensed-light"
         />

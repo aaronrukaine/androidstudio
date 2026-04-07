@@ -24,5 +24,27 @@
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
         android:src="@drawable/image6" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="There is"
+        android:textColor="#16C5D9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="essence of meditation ie.
+cultivating pure, non-judgmental awareness and resting in the present moment, rather than just relaxing or clearing the mind."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="#EB5E4E7C"
+        android:text="How to meditate"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        />
 
 </LinearLayout>

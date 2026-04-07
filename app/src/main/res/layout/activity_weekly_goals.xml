@@ -1,54 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NutritionAdvice"
-    android:orientation="vertical">
-
+    tools:context=".WeeklyGoals"
+    android:orientation="vertical"
+    >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nutrition Advice"
+        android:text="Weekly View"
         android:textSize="30sp"
         android:layout_marginTop="30dp"
         android:textAlignment="center"
         android:textColor="#83516F"/>
-
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/image3" />
+        android:src="@drawable/weekly"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Eat a balanced"
-        android:textColor="#16C5D9"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="  , varied diet by filling half your plate with colorful fruits and vegetables, one-quarter with lean protein (fish, beans, nuts), and one-quarter with whole grains"
+        android:text="Learn a new skill relevant to your career.Exercise for at least 30 minutes, three times this week
+ Spend dedicated time on a creative hobby or project
+ Reach out to a friend you haven't spoken to in a while.Save a specific amount toward a financial goal."
         android:textColor="#000000"
         android:textSize="20sp"
-        android:fontFamily="sans-serif-condensed-medium"/>
+        android:fontFamily="sans-serif-condensed-medium"
+
+
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:backgroundTint="#EB5E4E7C"
-        android:text="Explore on nutrition"
+        android:text="Check your weekly Activity"
         android:textSize="20sp"
         android:fontFamily="sans-serif-condensed-light"
         />
 
 
-
 </LinearLayout>
-

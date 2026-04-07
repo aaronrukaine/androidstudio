@@ -25,5 +25,28 @@
         android:layout_margin="20dp"
         android:scaleType="centerCrop"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Focus On"
+        android:textColor="#16C5D9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" nutrient-dense ingredients—such as vegetables, fruits, whole grains, lean proteins, and healthy fats—to provide balanced meals that support overall wellness"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="#EB5E4E7C"
+        android:text="More on Healty recipes"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        />
+
 
 </LinearLayout>
