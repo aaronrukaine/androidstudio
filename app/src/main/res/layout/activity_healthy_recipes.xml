@@ -1,52 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F5F5F5"
     tools:context=".HealthyRecipes">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipes"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp"
-        android:textAlignment="center"
-        android:textColor="#83516F"/>
+        android:padding="16dp"
+        android:gravity="center_horizontal">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/image5"
-        android:layout_margin="20dp"
-        android:scaleType="centerCrop"/>
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Healthy Recipes"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#333333"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Focus On"
-        android:textColor="#16C5D9"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=" nutrient-dense ingredients—such as vegetables, fruits, whole grains, lean proteins, and healthy fats—to provide balanced meals that support overall wellness"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="sans-serif-condensed-medium"/>
+        <!-- Image -->
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/image5"
+            android:layout_margin="20dp"
+            android:scaleType="centerCrop"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:backgroundTint="#EB5E4E7C"
-        android:text="More on Healty recipes"
-        android:textSize="20sp"
-        android:fontFamily="sans-serif-condensed-light"
-        />
+        <!-- Section Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Focus On"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#16C5D9"
+            android:layout_marginTop="10dp"/>
 
+        <!-- Card Content -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            android:layout_marginTop="10dp">
 
-</LinearLayout>
+            <TextView
+                android:id="@+id/tvRecipeInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Focus on nutrient-dense ingredients such as vegetables, fruits, whole grains, lean proteins, and healthy fats to create balanced meals that support overall wellness."
+                android:textColor="#444444"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="20dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/btnMoreRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:backgroundTint="#4CAF50"
+            android:text="More Healthy Recipes"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="14dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

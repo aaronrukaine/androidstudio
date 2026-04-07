@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
         val meditation=findViewById<Button>(R.id.meditation)
 
         meditation.setOnClickListener {
-            val nutritionIntent= Intent(applicationContext, Meditation::class.java)
-            startActivity(nutritionIntent)
+            val meditationIntent= Intent(applicationContext, Meditation::class.java)
+            startActivity(meditationIntent)
         }
 
 //        hydration alert
