@@ -33,14 +33,27 @@
             android:id="@+id/image"
             android:scaleType="centerCrop"/>
 
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+
+
+
         <Button
+            android:id="@+id/recipe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:backgroundTint="#83516F"
             android:text="Health Recipes"
-            android:id="@+id/recipe"
-            android:textSize="25sp"/>
+            android:textSize="25sp" />
+
 
         <Button
             android:layout_width="match_parent"
